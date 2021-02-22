@@ -27,8 +27,8 @@
 #define DBG(...)
 #endif
 
-#define H3LIS200DL_I2C_ADDR  (0x19)  /*sensor IIC address*/
-#define LIS331HH_I2C_ADDR  (0x19)  /*sensor LIS331HH IIC address*/
+#define H3LIS200DL_I2C_ADDR  (0x19)  /*sensor H3LIS200DL IIC address*/
+#define LIS331HH_I2C_ADDR    (0x19)  /*sensor LIS331HH IIC address*/
 #define H3LIS200DL        0x01     //
 #define LIS331HH          0x02     //
 #define ERR_DATA_BUS      -1      //error in data bus
