@@ -43,7 +43,7 @@ void setup(void){
   //Chip initialization
   while(acce.begin()){
      delay(1000);
-     Serial.println("init failure");
+     Serial.println("检查连线");
   }
   //Get chip id
   Serial.print("chip id : ");
