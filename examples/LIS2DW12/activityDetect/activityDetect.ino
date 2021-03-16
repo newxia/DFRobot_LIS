@@ -1,4 +1,5 @@
 /**！
+ *
  * @file activityDetect.ino
  * @brief Motion detection,可以检测到模块是否在移动
  * @n 使用此功能,需先进入低功耗模式,然后调用setActMode(),使芯片进入睡眠模式,此种状态下测量速率为12.5hz
