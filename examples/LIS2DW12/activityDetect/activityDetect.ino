@@ -158,7 +158,15 @@ void setup(void){
 void loop(void){
    //Motion detected
    if(acce.actDetected()){
-     Serial.println("Activity Detected");
+     Serial.println("Activity Detected!");
+     acce.continRefresh(true);
+     Serial.print("x: ");
+     Serial.print(acce.readAccX());
+     Serial.print(" mg \t y: ");
+     Serial.print(acce.readAccY());
+     Serial.print(" mg \t z: ");
+     Serial.print(acce.readAccZ());
+     Serial.println(" mg");
      delay(100);
    }
   
